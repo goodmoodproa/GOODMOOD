@@ -1,0 +1,532 @@
+/* --------------------
+   Estilo da página
+--------------------- */
+
+
+
+/*<=====COMEÇO SECTION TOP=============================================================================================*/
+
+html {
+   scroll-behavior: smooth;
+}
+
+.top {
+   width: 100%;
+   height: 113vh;
+   position: relative;
+   margin-top: 1.5%;
+}
+
+#pointlight {
+
+   position: absolute;
+   top: 2%;
+   right: 20%;
+   width: 100px;
+   height: auto;
+
+}
+
+.top::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background-color: #001aff46;
+   z-index: -1;
+}
+
+.top::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background-image: url(../assets/images/donate/heitorlendo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   z-index: -1;
+   opacity: 1;
+   filter: blur(5px);
+   border-block-end: solid 5px #8f8f8f;
+
+}
+
+#content1 {
+   position: relative;
+   /*background-color: rgb(172, 172, 245); wireframe*/
+   width: 80%;
+   height: 720px;
+   margin: auto;
+   
+}
+
+#init {
+   position: relative;
+   /*background-color: rgb(175, 118, 230); wireframe*/
+   width: 80%;
+   height: 200px;
+   margin: auto;
+   
+}
+
+#boxtext {
+   position: relative;
+   /*background-color: rgb(192, 199, 199); wireframe*/
+   width: 80%;
+   padding-top: 5%;
+   height: 100px;
+   margin: auto;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   color: var(--tertiary-color);
+   font-size: 48px;
+   font-weight: 600;
+   font-family:var(--font-family-base);
+   font-style: bold;
+   text-align: center;
+   text-shadow:
+      -1px -1px 0 #000,
+      -1px -1px 0 #000,
+      -1px -1px 0 #000,
+      1px 1px 0 #000,
+      3px 3px 5px #000;
+}
+
+#boxbutton {
+   position: relative;
+   width: 80%;
+   height: 80px;
+   margin: auto;
+   margin-top: 3%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+button {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   width: 350px;
+   height: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: var(--quaternary-color);
+   font-family: inter;
+   font-size: 20px;
+   border-radius: 8px;
+   border-style: none;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   
+
+}
+
+button:hover{
+
+    border: 0;
+    background-color:#F54B14;
+    color: var(--primary-color);
+    border-radius: 10px;
+    scale: 1.05;
+    transition: var(--transition-fast);
+
+}
+
+#iconheart {
+   width: 40px;
+   height: 40px;
+}
+
+#content2 {
+   position: relative;
+   background-color: white;
+   width: 80%;
+   height: 500px;
+   margin: auto;
+   border-radius: 10px;
+   
+}
+
+#line {
+   width: 100%;
+   height: 50px;
+   background-color: var(--quaternary-color);
+   justify-content: center;
+   display: flex;
+   border-radius: 10px 10px 0px 0px;
+   padding: 5px;
+}
+
+
+h3 {
+   font-size: 25px;
+   font-family: inter;
+   font-style: bold;
+   text-align: center;
+   margin-top: 30px;
+}
+
+.boxlayout {
+   position: relative;
+   /*background-color: rgb(248, 115, 115); wireframe*/
+   width: 100%;
+   height: 250px;
+   margin-top: 5px;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   padding: 100px;
+   gap: 50px;
+   
+}
+
+.boxdonate {
+   font-size: 20px;
+   font-family: inter;
+   font-style: bold;
+   text-align: center;
+   padding: 40px;
+   border: #FC773D solid 2px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.boxdonate:hover{
+
+    border: 0;
+    background-color:#F54B14;
+    color: var(--primary-color);
+    border-radius: 10px;
+    scale: 1.05;
+    transition: var(--transition-fast);
+
+}
+
+.boxdonate:active{
+
+   background-color:#fc763da2;
+   transition: var(--transition-fast);
+
+}
+
+.boxdonate p {
+   font-size: 40px;
+   font-family: fredoka;
+   font-style: bold;
+   text-align: center;
+   color: var(--tertiary-color);
+   font-weight: bold;
+   text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      3px 3px 5px #000;
+
+
+}
+
+#donatedirect {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   width: 100%;
+   height: 70px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: #F54B14;
+   font-family: inter;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 8px;
+   border-style: none;
+   color: rgb(255, 255, 255);
+   margin-top: 7px;
+   cursor: pointer;
+}
+
+#heartdonate {
+   width: 40px;
+   height: 40px;
+}
+
+/*<=====FIM SECTION TOP=================================================================================================*/
+
+
+
+
+
+
+
+
+/*<=====COMEÇO SECTION MID==============================================================================================*/
+.mid {
+   position: relative;
+   background-color: white;
+   width: 100%;
+   margin: auto;
+   height: 120vh;
+   background-image: url(../assets/images/donate/BGpart2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+
+.box1 {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 90%;
+   height: 300px;
+   background-color: #F9C02B;
+   border-radius: 0px 100px 50px 0px;
+   align-items: center;
+   font-family: fredoka;
+   font-size: 28px;
+   font-weight: 900;
+   color: white;
+   text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      3px 3px 5px #000;
+   margin-top: 100px;
+   box-shadow: 10px 10px 9.9px 0 rgba(0, 0, 0, 0.25);
+   
+}
+
+#image1 {
+   position: relative;
+   background-color: #F54B14;
+   border-radius: 50px 100px 50px 100px;
+   background-image: url(../assets/images/donate/JPGuilherme2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border: #FC773D solid 2px;
+   height: 90%;
+   margin: 10px;
+   width: 500px;
+   box-shadow: 10px 10px 9.9px 0 rgba(0, 0, 0, 0.25);
+   
+}
+
+/* #image1:hover{
+
+  
+
+} */
+
+
+
+.box1 p {
+   margin-top: -60px;
+   /*background-color: aqua;*/
+   width: 50%;
+   height: 50%;
+}
+
+.box2 {
+
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 90%;
+   height: 300px;
+   background-color: #018DE2;
+   border-radius: 100px 0px 0px 50px;
+   align-items: center;
+   margin-left: 10%;
+   font-size: 28px;
+   font-weight: 900;
+   color: white;
+   font-family: fredoka;
+   text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      3px 3px 5px #000;
+   margin-top: 105px;
+   box-shadow: 10px 10px 9.9px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+#image2 {
+   position: relative;
+   background-color: #F54B14;
+   border-radius: 100px 50px 100px 50px;
+   background-image: url(../assets/images/donate/JPCleyton2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border: #FC773D solid 2px;
+   height: 90%;
+   margin: 10px;
+   width: 500px;
+   box-shadow: 10px 10px 9.9px 0 rgba(0, 0, 0, 0.25);
+}
+
+.box2 p {
+   margin-top: -20px;
+   /*background-color: aqua;*/
+   width: 50%;
+   height: 50%;
+}
+
+/*<=====FIM SECTION MID=================================================================================================*/
+
+
+
+
+
+
+
+
+
+/*<=====COMEÇO SECTION DOWN==========================================================================================*/
+.down {
+   position: relative;
+   background-color: #E0E2E3;
+   width: 100%;
+   height: 120vh;
+   margin: auto;
+}
+
+#arrowyellow {
+
+   position: absolute;
+   top: 10%;
+   right: 5%;
+   width: 200px;
+   height: auto;
+   transform: rotate(30deg);
+
+}
+
+
+#arrowblue {
+
+   position: absolute;
+   top: 7%;
+   left: 3%;
+   width: 200px;
+   height: auto;
+
+}
+
+
+#boxorange {
+   position: relative;
+   height: 570px;
+   width: 60%;
+   margin: auto;
+
+   background-color: #FC773D;
+   border-radius: 100px 100px 0px 0px;
+   display: flex;
+   justify-content: center;
+   box-shadow: 10px 10px 9.9px 0 rgba(0, 0, 0, 0.25);
+}
+
+#bgqrcode {
+   position: relative;
+   height: 500px;
+   width: 80%;
+   margin: auto;
+   align-items: center;
+   margin-top: 50px;
+   background-color: #ffffff;
+   border-radius: 50px 50px 50px 50px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 10px 10px 9.9px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+#headericon {
+   position: relative;
+   width: 100%;
+   height: 100px;
+   background-color: #E0E2E3;
+   border-radius: 50px 50px 0px 0px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   padding: 10%;
+}
+
+#bgqrcode p {
+   position: relative;
+   text-align: center;
+   font-family: inter;
+   font-weight: bolder;
+   font-size: 20px;
+   margin-top: 3%;
+   display: flex;
+   flex-direction: column;
+
+}
+
+#qrcode {
+   position: relative;
+   background-color: #FC773D;
+   height: 230px;
+   width: 36%;
+   margin-top: 5%;
+   background-image: url(../assets/images/donate/qrcode-pix.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border: #FC773D solid 2px;
+   border-radius: 25px 25px 25px 25px;
+}
+
+#footerorange {
+   position: relative;
+   background-color: #FC773D;
+   height: 200px;
+   width: 100%;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   text-align: center;
+   font-family: fredoka;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   color: #ffffff;
+   text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      3px 3px 5px #000;
+   
+}
+
+
+/* --------------------
+   Responsividade
+--------------------- */
+
+/* -------- TABLET -------- */
+@media (max-width: 1024px) {}
+
+
+/* -------- MOBILE GRANDE -------- */
+@media (max-width: 768px) {}
+
+
+/* -------- MOBILE -------- */
+@media (max-width: 480px) {}

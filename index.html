@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título na barra de navegação -->
+    <title>Good Mood - Seja bem-vindo</title>
+    <!-- Ícone na barra de navegação -->
+    <link rel="icon" href="./assets/icons/icon.ico" type="image/x-icon">
+    <!-- Link para variáveis do css -->
+    <link rel="stylesheet" href="./css/variables.css" type="text/css">
+    <!-- Link para padronizar ou normalizar css -->
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css">
+    <!-- Link para o estilo geral do css -->
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <!-- Link para ícones do https://www.flaticon.com/ -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css' type="text/css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header id="cabecalho-pagina">
+        <!-- Logo -->
+        <a href="./index.html" target="_self" id="logo-vertical">
+            <img src="./assets/images/logo_vertical.png" alt="Logo da ONG Good Mood" title="Good Mood">
+        </a>
+
+        <!-- Barra de navegação não responsiva -->
+        <nav id="nav-bar">
+            <ul id="lista-botoes-cabecalho">
+                <li><a href="./index.html" class="botao-cabecalho">Home</a></li>
+                
+                <li><a href="./pages/about.html" class="botao-cabecalho">Sobre nós</a></li>
+                
+                <li><a href="./pages/contact.html" class="botao-cabecalho">Contato</a></li>
+                
+                <li><a href="./pages/donate.html" id="botao-doar-cabecalho">
+                        <img src="assets/images/coracao_do_doar.png" id="coracao-do-doar">
+                        <span>Doar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Botão doar e icone para responsividade -->
+        <div id="container-btn-mobile">
+            <a href="./pages/donate.html" id="botao-doar-cabecalho">
+                <img src="assets/images/coracao_do_doar.png" id="coracao-do-doar">
+                <span>Doar</span>
+            </a>
+            
+            <div class="btn-mobile">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>        
+        </div>
+        
+        <!-- Links do responsivo -->
+        <nav id="nav-mobile" class="nav-list">
+            <ul id="lista-botoes-cabecalho">
+                <li><a href="./index.html" class="botao-cabecalho">Home</a></li>
+                
+                <li><a href="./pages/about.html" class="botao-cabecalho">Sobre nós</a></li>
+                
+                <li><a href="./pages/contact.html" class="botao-cabecalho">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo do site - main -->
+    <main>
+        <section id="presentation">
+            <div class="presentation-content">
+                <div id="logo-horizontal">
+                    <img src="./assets/images/Good_Mood_Horizontal.png" alt="Logo da ONG Good Mood Horizontal" title="Good Mood">
+                </div>
+                
+                <p class="description">
+                    Uma ONG que transforma ambientes de cuidado em lugares de afeto, riso e esperança.
+                </p>
+            </div>
+        </section>
+
+        <section id="our-services">
+            <header id="header-services" class="header-sections">
+                <span class="icon-generics" id="light-vector"><img src="./assets/images/index/LightVector.svg" alt=""></span>
+                
+                <h2>O que fazemos?</h2>
+            </header>
+
+            <div id="cards-services">
+                <div class="group-card-service">
+                    <article class="card-service">
+                        <div class="card-image-service">
+                            <img src="./assets/images/index/hospital.jpg" alt="Imagem de uma visita no hospital" title="Visita no hospital">
+                        </div>
+    
+                        <div class="card-text-service">
+                            <h3>🎭 Teatro interativo</h3>
+                            <p>Apresentações lúdicas com artistas preparados para levar diversão, interação e mensagens positivas a hospitais, escolas e abrigos.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card-service">
+                        <div class="card-image-service">
+                            <img src="./assets/images/index/JPGuilherme5.png" alt="Imagem de dois funcionários lendo" title="Funcionário lendo">
+                        </div>
+    
+                        <div class="card-text-service">
+                            <h3>🎶 Música para a alma</h3>
+                            <p>Show acústico com repertório pensado para emocionar, estimular e trazer leveza aos ambientes.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="group-card-service"> 
+                    <article class="card-service">
+                        <div class="card-image-service">
+                            <img src="./assets/images/index/crianca.jpg" alt="Imagem de uma criança feliz com a visita" title="criança e uma visita feliz">
+                        </div>
+    
+                        <div class="card-text-service">
+                            <h3>🤹 Oficinas criativas</h3>
+                            <p>Atividades manuais, contação de histórias e jogos educativos que incentivam imaginação e expressão.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card-service">
+                        <div class="card-image-service">
+                            <img src="./assets/images/index/heitorlendo.png" alt="Imagem de um funcionário lendo" title="Funcionário lendo">
+                        </div>
+    
+                        <div class="card-text-service">
+                            <h3>😊 Visitas de alegria</h3>
+                            <p>Encontros personalizados com pacientes, famílias e comunidades para ouvir, conversar e espalhar sorrisos.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <section id="where-we-operate">
+            <div id="title-images-operate">
+                <header id="header-operate" class="header-sections">                  
+                    <h2>Onde levamos alegria e esperança</h2>
+                </header>
+
+                <div id="group-images-operate">
+                    <article class="image-one">
+                        <img src="./assets/images/index/salaDeAula.jpg" alt="Alunos em sala de aula" title ="Sala de aula com alunos">
+                    </article>
+                    
+                    <article class="image-two">
+                        <img src="./assets/images/index/aniversarioVisita.jpg" alt="Comemorando o anivesário de uma paciente" title="Comemorando funcionário">
+                    </article>
+
+                    <article class="image-three">
+                        <img src="./assets/images/index/Guilhermedeitado.png" alt="Funcionário feliz deitado" title="Funcionário feliz deitado">
+                    </article>
+                </div>
+            </div>
+
+            <div id="cards-locais">
+                <div class="group-cards-locais" id="group-locais-one">
+                    <article class="card-local" id="card-one">
+                        <h3>Hospitais e clínicas</h3>
+                        <p>
+                            Visitamos enfermarias, recepções e alas pediátricas levando intervenções artísticas e momentos de descontração para pacientes e equipes.
+                        </p>
+                    </article>
+    
+                    <article class="card-local" id="card-two">
+                        <h3>Escolas e instituições</h3>
+                        <p>
+                            Criamos ações educativas que unem arte e aprendizado para crianças e jovens, estimulando valores como respeito e empatia.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="group-cards-locais" id="group-locais-two">
+                    <article class="card-local" id="card-three">
+                        <h3>Abrigos e casas de apoio</h3>
+                        <p>
+                            Oferecemos atividades recreativas e culturais para promover autoestima, convivência e esperança em ambientes acolhedores.
+                        </p>
+                    </article>
+    
+                    <article class="card-local" id="card-four">
+                        <h3>Eventos solidários</h3>
+                        <p>
+                            Participamos e organizamos eventos beneficentes que unem arte e causa social, fortalecendo redes de apoio.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact">
+            <header id="header-impact" class="header-sections">
+                <h2>Impactos sociais</h2>
+            </header>
+            
+            <section id="text-cards-impact">
+                <p id="text-impact">
+                    Nossas ações levam acolhimento, alegria e afeto a quem mais precisa, transformando o dia a dia em hospitais, escolas e comunidades. Por meio da arte, da música e do riso, ajudamos a criar momentos que fortalecem o corpo e o coração.
+                </p>
+
+                <div id="cards-impact">
+                    <article class="card-impact" id="card-impact-one">
+                        <h3>+240</h3>
+                        <p>Apresentações e oficinas realizadas no último ano</p>
+                    </article>
+
+                    <article class="card-impact" id="card-impact-two">
+                        <h3>+85</h3>
+                        <p>Voluntários ativos espalhando alegria e esperança</p>
+                    </article>
+
+                    <article class="card-impact" id="card-impact-three">
+                        <h3>+3.500</h3>
+                        <p>Pessoas beneficiadas diretamente em hospitais e instituições</p>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <section id="partnerships">
+            <header id="header-partnerships" class="header-sections">
+                <span id="king"><img src="./assets/images/index/King.svg" alt=""></span>
+                
+                <h2>Heróis que nos apoiam</h2>
+            </header>
+
+            <section id="images-partnerships">
+                <div class="group-images-partnerships">
+                    <img src="./assets/images/index/logoSirio.svg" alt="Logo do hospital Sirío Libanês" title="Logo Sirío Libanês">
+                    <img src="./assets/images/index/sesc.png" alt="Logo do Sesc" title="Logo do Sesc">
+                    <img src="./assets/images/index/itau.svg" alt="Logo do Itaú" title="Logo do Itaú">
+                    <img src="./assets/images/index/InstitutoAyrtonSenna.png" alt="Logo do Instituto Ayrton Senna" title="Logo do Instituto Ayrton Senna">
+                </div>
+
+                <div class="group-images-partnerships">
+                    <img src="./assets/images/index/bauducco.png" alt="Logo da Bauducco" title="Logo da Bauducco">
+                    <img src="./assets/images/index/RDLogo.png" alt="Logo da Famácia" title="Logo da Farmácia">
+                    <img src="./assets/images/index/FundacaoItau.svg" alt="Logo da Fundação Itaú" title="Logo da Fundação Itaú">
+                    <img src="./assets/images/index/hospitalAlbert.webp" alt="Logo do Hospital Albert Einstein" title="Logo Albert Einstein">
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="footer-site">
+        <!-- Superior ou caixa newsletter -->
+        <section id="box-newsletter">
+            <section id="text-newsletter">
+                <h3>Um clique que espalha alegria!</h3>
+                <p>Assine nossa newsletter e fique por dentro das visitas, eventos e projetos que espalham felicidade.</p>
+            </section>
+            
+            <section id="form-newsletter">
+                <form action="#">
+                    <div id="input-container">
+                        <i class="fi fi-sr-envelope"></i>
+                        <input type="email" name="emailInputNewsletter" placeholder="Digite seu e-mail">
+                    </div>
+
+                    <div id="btn-container">
+                        <button id="btn-subscribe" type="button">Inscreva-se</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+
+        <!-- Corpo do rodapé -->
+        <section id="box-middle">
+            <section class="box-content-text">
+                <h4 class="title-footer-middle background-orange">Sobre nós</h4>
+                <p class="box-text-middle">A Good Mood é uma ONG que espalha alegria e esperança por meio de arte, música e afeto. Nossa missão é transformar dias difíceis em momentos inesquecíveis.</p>
+            </section>
+            
+            <section class="box-content-text">
+                <h4 class="title-footer-middle background-blue">Ajuda</h4>
+                <p class="box-text-middle">Descubra como apoiar nossos projetos e espalhar mais alegria pelo mundo:</p>
+                <nav>
+                    <ul>
+                        <li><a href="./pages/donate.html" target="_self" rel="next">Doe agora</a></li>
+                        <li><a href="./pages/contact.html" target="_self" rel="next">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section class="box-content-text">
+                <h4 class="title-footer-middle background-yellow">Contatos</h4>
+                <section class="box-text-contact">
+                    <p><a href="https://maps.app.goo.gl/A3gFdBwZq4yn4vQm9" target="_blank" rel="noopener">📍 R. Tito, 54 - Vila Romana, São Paulo - SP, 05051-000</a></p>
+                    <p><a href="mailto:contato@goodmood.com" target="_blank" rel="noopener">📧 contato@goodmood.com</a>
+                    </p>
+                    <p><a href="tel:5511955208869" target="_blank" rel="noopener">📞 (11) 95520-8869</a></p>
+                </section>
+            </section>
+            
+            <section id="box-content-icon">
+                <section class="box-social-orange">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                        <i class="fi fi-brands-instagram"></i>
+                    </a>
+                </section>
+
+                <section class="box-social-blue">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                        <i class="fi fi-brands-facebook"></i>
+                    </a>
+                </section>
+                
+                <section class="box-social-yellow">
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                        <i class="fi fi-brands-youtube"></i>
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <!-- Copyright do rodapé -->
+        <section id="copyright">
+            <p>© 2025 Good Mood. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+
+    <!-- API Acessibilidade -->
+    <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
+
+    <!-- API Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+</body>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<script src="./js/main.js" defer></script>
+</html>

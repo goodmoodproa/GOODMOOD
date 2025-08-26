@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título na barra de navegação -->
+    <title>Good Mood - Seja bem-vindo</title>
+    <!-- Ícone na barra de navegação -->
+    <link rel="icon" href="../assets/icons/icon.ico" type="image/x-icon">
+    <!-- Link para variáveis do css -->
+    <link rel="stylesheet" href="../css/variables.css" type="text/css">
+    <!-- Link para padronizar ou normalizar css -->
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
+    <!-- Link para o estilo geral do css -->
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <!-- Link para ícones do https://www.flaticon.com/ -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css' type="text/css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="/css/about.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header id="cabecalho-pagina">
+        <!-- Logo -->
+        <a href="../index.html" target="_self" id="logo-vertical">
+            <img src="../assets/images/logo_vertical.png" alt="Logo da ONG Good Mood" title="Good Mood">
+        </a>
+
+        <!-- Barra de navegação não responsiva -->
+        <nav id="nav-bar">
+            <ul id="lista-botoes-cabecalho">
+                <li><a href="../index.html" class="botao-cabecalho">Home</a></li>
+                
+                <li><a href="./about.html" class="botao-cabecalho">Sobre nós</a></li>
+                
+                <li><a href="./contact.html" class="botao-cabecalho">Contato</a></li>
+                
+                <li><a href="./donate.html" id="botao-doar-cabecalho">
+                        <img src="../assets/images/coracao_do_doar.png" id="coracao-do-doar">
+                        <span>Doar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Botão doar e icone para responsividade -->
+        <div id="container-btn-mobile">
+            <a href="donate.html" id="botao-doar-cabecalho">
+                <img src="../assets/images/coracao_do_doar.png" id="coracao-do-doar">
+                <span>Doar</span>
+            </a>
+            
+            <div class="btn-mobile">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>        
+        </div>
+        
+        <!-- Links do responsivo -->
+        <nav id="nav-mobile" class="nav-list">
+            <ul id="lista-botoes-cabecalho">
+                <li><a href="../index.html" class="botao-cabecalho">Home</a></li>
+                
+                <li><a href="./about.html" class="botao-cabecalho">Sobre nós</a></li>
+                
+                <li><a href="./contact.html" class="botao-cabecalho">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo do site - main -->
+    <main>
+        <section class="welcome">
+            <img src="/assets/images/about/icontittle.svg" alt="SVG decorativo de estrela" class="welcome-svg-left">
+            <img src="/assets/images/about/icontitle2.svg" alt="SVG decorativo de estrela" class="welcome-svg-right">
+            <h1 class="title_about">Cada visita, uma nova esperança. Junte-se a nós nessa missão de espalhar alegria.</h1>    
+        </section>
+
+        <section class="comeco">
+            <div class="texto">
+                <h1 class="title">Onde tudo começou</h1>
+                <p class="desc">A Good Mood nasceu em São Paulo, em 2023, com o propósito de levar alegria e arte a quem mais precisa. Unindo humor e projetos sociais, o grupo usa a arte como ferramenta para inspirar esperança.</p>
+                <p class="desc2">O projeto começou com visitas voluntárias a hospitais, escolas e orfanatos, usando o palhaço como ponte para o afeto. A iniciativa cresceu rapidamente, reunindo artistas e voluntários para espalhar sorrisos e boas lembranças.</p>
+            </div>
+            <div class="img">
+                <img src="../assets/images/about/ondeComecou.png" alt="Imagem de voluntários fazendo uma criança alegre">
+            </div>
+        </section>
+
+        <section class="foco">
+            <div class="img">
+                <img src="../assets/images/about/nossofocoimg.png" alt="">
+            </div>
+            <div class="texto">
+                <h1 class="title">Nosso Foco</h1>
+                <p class="desc">Atuamos pela vontade de promover bons encontros, ingredientes indispensáveis para a vida coletiva. Seja na vida, em geral, e, especificamente, em hospitais, escolas e outras organizações sociais, pelo voluntariado e pela arte, essencialmente.</p>
+            </div>
+        </section>
+         
+        <section class="jornada">
+            <h1 class="title">Nossa jornada em cores e alegria</h1>
+            <div class="box">
+                <div class="box1">
+                    <div class="content">
+                        <p>
+                            Desde sua fundação, a Good Mood já realizou mais de 320 intervenções em hospitais, escolas e instituições sociais. As ações se expandiram de uma única cidade para dois estados, com apresentações e intervenções artísticas também em espaços culturais e eventos comunitários.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box2">
+                    <div class="content">
+                        <p>
+                            Essas atividades contribuíram para aproximar diferentes públicos da arte, promovendo momentos de alegria e fortalecendo vínculos sociais. A cada nova intervenção, a ONG reafirma seu compromisso em levar cultura, leveza e esperança para ambientes que muitas vezes carecem de acolhimento e descontração.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <section class="equipe">
+            <img src="../assets/images/about/estrelaselementos.svg" alt="estrelas" id="estrelasamarelas">
+            <h1 class="title">Nossa equipe</h1>
+            
+            <div id="cards-equipe">
+                <div class="card_t">
+                    <div class="card" id="card-lucas">
+                        <div class="foto_lucas"></div>
+                        <h3 class="nome">🎩 Lucas - Piadista</h3>
+                        <p class="desc">Sempre pronto para soltar uma frase que arranca gargalhadas, Lucas tem o dom de transformar qualquer silêncio em risada.</p>
+                    </div>
+    
+                    <div class="card" id="card-heitor">
+                        <div class="foto_heitor"></div>
+                        <h3 class="nome">🎈Heitor - Rei Careta</h3>
+                        <p class="desc">Com um olhar ou uma careta, ele faz qualquer um esquecer o mau humor e cair na risada, Heitor é mestre nisso.</p>
+                    </div>
+    
+                    <div class="card" id="card-guilherme">
+                        <div class="foto_guilherme"></div>
+                        <h3 class="nome">🎨 Guilherme - Arte</h3>
+                        <p class="desc">Entre uma piada e outra, Guilherme saca seus lápis e pincéis para transformar rosto em obras de arte.</p>
+                    </div>
+                </div>
+    
+                <div class="card_b">
+                    <div class="card" id="card-mauricio">
+                        <div class="foto_mauricio"></div>
+                        <h3 class="nome">🥁 Mauricio - Músico</h3>
+                        <p class="desc">Armado com um ukelele, um pandeiro ou qualquer coisa que faça barulho. Mauricio cria trilha sonora incríveis para cada momento.</p>
+                    </div>
+                <img src="../assets/images/about/elementovermelho.svg" alt="ampulhetavermelha" id="elementovermelho">
+                    <div class="card" id="card-jotape">
+                        <div class="foto_jotape"></div>
+                        <h3 class="nome">🎭 JotaP - Improviso</h3>
+                        <p class="desc">JotaP nunca segue o roteiro... e é por isso que  público o adora. O Rei do improviso</p>
+                    </div>
+    
+                    <div class="card" id="card-cleyton">
+                        <div class="foto_cleyton"></div>
+                        <h3 class="nome">🤣 Palhaço Cleyton</h3>
+                        <p class="desc">Se depender do palhaço Cleyton, um simples “Boa tarde” vira uma saga épica com dragões, princesas e sorvetes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <section class="apoio">
+            <h2 class="apoio-titulo">Nos apoie!</h2>
+
+            <div class="apoio-container">
+                <div class="apoio-card laranja">
+                    <a href="/pages/contact.html"><div class="icone">
+                        <img src="/assets/images/coracao_do_doar.png" alt="Ícone de coração branco">
+                    </a>
+                    </div>
+                    <a href="/pages/contact.html"><button class="botao laranja">Trabalhe conosco</button></a>
+                </div>
+
+                <div class="apoio-card amarelo">
+                    <a href="/pages/donate.html"><div class="icone">
+                        <img src="/assets/images/coracao_do_doar.png" alt="Ícone de coração branco">
+                        </a>
+                    </div>
+                    <a href="/pages/donate.html"><button class="botao amarelo">Deixe sua colaboração</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedbacks">
+            <div class="feedback-cabecalho">
+                <h1>Histórias de pacientes e voluntários <br> que viveram a magia da Good Mood</h1>
+                <p>Aqui, cada visita é uma oportunidade de transformar momentos difíceis em sorrisos e esperança. Conheça os relatos de pacientes, familiares e voluntários que já viveram essa experiência única. Venha fazer parte dessa corrente de alegria.</p>
+            </div>
+
+            <div class="feedback-cards">
+                <div class="card-feedback">
+                    <div class="perfil">
+                        <img src="/assets/images/about/SenhoraFamiliarabout.png" alt="Foto de perfil de Maria Lúcia">
+                        <div>
+                            <h3>Maria Lúcia</h3>
+                            <p>Mãe de um dos pacientes</p>
+                        </div>
+                    </div>
+                    <p class="depoimento">"Quando a Good Mood entrou no quarto do meu filho, o clima mudou na hora. Ele estava desanimado há dias, mas começou a sorrir e brincar. Foi um respiro de alegria em meio a um momento tão difícil. Nunca vou esquecer!"</p>
+                </div>
+
+                <div class="card-feedback">
+                    <div class="perfil">
+                        <img src="/assets/images/about/fotosvoluntarioabout.png" alt="Foto de perfil de Diego Dantas">
+                        <div>
+                            <h3>Diego Dantas</h3>
+                            <p>Voluntário na Good Mood</p>
+                        </div>
+                    </div>
+                    <p class="depoimento">"Ser voluntário no Good Mood é uma das experiências mais transformadoras da minha vida. Cada visita, cada risada compartilhada, me lembra que pequenos gestos podem gerar grandes mudanças na vida de alguém."</p>
+                </div>
+
+                <div class="card-feedback">
+                    <div class="perfil">
+                        <img src="/assets/images/about/fotodoutorabout.png" alt="Foto de perfil de Fernando José Fialho">
+                        <div>
+                            <h3>Fernando José Fialho</h3>
+                            <p>Coordenador de voluntários da Saúde</p>
+                        </div>
+                    </div>
+                    <p class="depoimento">"Trabalhar no hospital é intenso, mas nos dias em que a Good Mood vem, o ambiente todo muda. Os pacientes relaxam, os familiares se sentem acolhidos e até nós, profissionais, ganhamos mais energia para continuar."</p>
+                </div>
+            </div>
+
+            <div class="feedback-numeros">
+                <div class="card-numero">
+                    <h3>+3500</h3>
+                    <p>Sorrisos compartilhados</p>
+                </div>
+
+                <div class="card-numero">
+                    <h3>+80</h3>
+                    <p>Visitas Realizadas</p>
+                </div>
+
+                <div class="card-numero">
+                    <h3>+85</h3>
+                    <p>Voluntários ativos</p>
+                </div>
+
+                <div class="card-numero">
+                    <h3>+12</h3>
+                    <p>Hospitais e instituições</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="footer-site">
+        <!-- Superior ou caixa newsletter -->
+        <section id="box-newsletter">
+            <section id="text-newsletter">
+                <h3>Um clique que espalha alegria!</h3>
+                <p>Assine nossa newsletter e fique por dentro das visitas, eventos e projetos que espalham felicidade.</p>
+            </section>
+            
+            <section id="form-newsletter">
+                <form action="#">
+                    <div id="input-container">
+                        <i class="fi fi-sr-envelope"></i>
+                        <input type="email" name="emailInputNewsletter" placeholder="Digite seu e-mail">
+                    </div>
+                        
+                    <div id="btn-container">
+                        <button id="btn-subscribe" type="button">Inscreva-se</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+
+        <!-- Corpo do rodapé -->
+        <section id="box-middle">
+            <section class="box-content-text">
+                <h4 class="title-footer-middle background-orange">Sobre nós</h4>
+                <p class="box-text-middle">A Good Mood é uma ONG que espalha alegria e esperança por meio de arte, música e afeto. Nossa missão é transformar dias difíceis em momentos inesquecíveis.</p>
+            </section>
+            
+            <section class="box-content-text">
+                <h4 class="title-footer-middle background-blue">Ajuda</h4>
+                <p class="box-text-middle">Descubra como apoiar nossos projetos e espalhar mais alegria pelo mundo:</p>
+                <nav>
+                    <ul>
+                        <li><a href="./donate.html" target="_self" rel="next">Doe agora</a></li>
+                        <li><a href="./contact.html" target="_self" rel="next">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section class="box-content-text">
+                <h4 class="title-footer-middle background-yellow">Contatos</h4>
+                <section class="box-text-contact">
+                    <p><a href="https://maps.app.goo.gl/A3gFdBwZq4yn4vQm9" target="_blank" rel="noopener">📍 R. Tito, 54 - Vila Romana, São Paulo - SP, 05051-000</a></p>
+                    <p><a href="mailto:contato@goodmood.com" target="_blank" rel="noopener">📧 contato@goodmood.com</a>
+                    </p>
+                    <p><a href="tel:5511955208869" target="_blank" rel="noopener">📞 (11) 95520-8869</a></p>
+                </section>
+            </section>
+            
+            <section id="box-content-icon">
+                <section class="box-social-orange">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                        <i class="fi fi-brands-instagram"></i>
+                    </a>
+                </section>
+
+                <section class="box-social-blue">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                        <i class="fi fi-brands-facebook"></i>
+                    </a>
+                </section>
+                
+                <section class="box-social-yellow">
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                        <i class="fi fi-brands-youtube"></i>
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <!-- Copyright do rodapé -->
+        <section id="copyright">
+            <p>© 2025 Good Mood. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+
+    <!-- API Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+</body>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<script src="../js/main.js" defer></script>
+
+    <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
+
+</html>

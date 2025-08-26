@@ -1,0 +1,359 @@
+/* --------------------
+    Estilo da página
+--------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--font-family-heading);
+}
+
+#titulo-contato{
+    background-image: url(../assets/images/contact/fundo-titulo-contato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 10%;
+    font-family: var(--font-family-base);
+    position: relative;
+}
+
+#vetor-start1{
+    position: absolute;
+    margin-left: 5px;
+    left:4.5%;
+    top: 60px;
+}
+
+#vetor-start2{
+    position: absolute;
+    width: 5%;
+    height: auto;
+    right: 20%;
+    top: 80px;
+}
+
+#vetor-start3{
+    position: absolute;
+    width: 4%;
+    height: auto;
+    right: 20%;
+    top: 250px;
+}
+
+#titulo-contato h1{
+    width: 70%;
+    color: #FC773D;
+    text-shadow: 
+    -2px -2px 0 var(--primary-color),  
+    2px -2px 0 var(--primary-color),
+    -2px 2px 0 var(--primary-color),
+    2px 2px 0 var(--primary-color);
+    font-size: 48px;
+}
+
+#titulo-contato p{
+    color: var(--primary-color);
+    width: 70%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#logo-vertical-contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo-vertical-contato img{
+    width: 30%;
+    height: auto;
+}
+
+.section-w-waves{
+    position: relative;
+    padding-top: 90px;
+}
+
+
+#waves-top, #waves-bottom{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#waves-bottom{
+    transform: rotate(180deg);
+    top: inherit;
+    bottom: -90px;
+    z-index: -1;
+}
+
+.button-image-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    height: 300px;
+}
+
+#first-button-image-contact, #third-button-image-contact{
+    color: var(--secundary-color);
+    background-color: #E0E2E3;
+    margin-top: 0px;
+}
+
+.image-button{
+    width: 70%;
+}
+
+.title-button-contact{
+    background-color: #FC773D;
+    color: var(--primary-color);
+    border-radius: 10px;
+    height: 90px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: absolute;
+    top: 195px;
+    text-shadow: 
+    -1px -1px 0 var(--secundary-color),  
+    1px -1px 0 var(--secundary-color),
+    -1px 1px 0 var(--secundary-color),
+    1px 1px 0 var(--secundary-color),
+    3px 3px 5px var(--secundary-color);
+    font-family: var(--font-family-base);
+}
+
+#first-button-image-contact .title-button-contact{
+    background-color: #018DE2;
+}
+
+.button-image-contact-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.vetor-section-button{
+    position: absolute;
+    width: 120px;
+}
+
+#vetor2-1, #vetor1-1, #vetor3-2{
+    top: 50px;
+    left: 130px;
+}
+
+#vetor3-1, #vetor2-2, #vetor1-2{
+    bottom: 50px;
+    right: 130px;
+}
+
+#second-button-image-contact{
+    margin-bottom: 0;
+    padding-top: 45px;
+}
+
+.button-image-contact-container p{
+    width: 45%;
+    text-align: center;
+}
+
+#formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+#form-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 38%;
+    margin-top: 100px;
+}
+
+.categoria-contato{
+    border: 0;
+    background-color: #E0E2E3;
+    color: #FC773D;
+    border-radius: 10px;
+    height: 54px;
+    width: 30%;
+    transition: var(--transition-fast);
+    cursor: pointer;
+}
+
+.categoria-contato:hover{
+    border: 0;
+    background-color:#FC773D;
+    color: var(--primary-color);
+    border-radius: 10px;
+    scale: 1.05;
+    transition: var(--transition-fast);
+}
+
+.categoria-contato:active{
+    background-color:#fc763da2;
+    transition: var(--transition-fast);
+}
+
+#form1 input, #form1 textarea{
+    border: solid 2px #018DE2;
+    border-radius: 2px;
+}
+
+#form1 label, #form1 button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#form1 button{
+    background-color: #FC773D;
+    border: none;
+    color: var(--primary-color);
+    border-radius: 3px;
+    height: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    transition: var(--transition-fast);
+    cursor: pointer;
+}
+
+#form1 button:hover{
+    scale: 1.05;
+    transition: var(--transition-fast);
+}
+
+#form1 button:active{
+    background-color:#fc763d9e;
+    transition: var(--transition-fast);
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+
+/* --------------------
+    Responsividade
+--------------------- */
+
+/* -------- TABLET -------- */
+@media (max-width: 1024px) {
+    #titulo-contato img{
+        display: none;
+    }
+
+    .vetor-section-button{
+        display: none;
+    }
+
+}
+
+/* -------- MOBILE GRANDE -------- */
+@media (max-width: 768px) {
+    #titulo-contato img{
+        display: none;
+    }
+
+    #titulo-contato h1{
+        font-size: 40px;
+        width: 80%;
+    }
+    #titulo-contato p{
+        font-size:22px;
+        width: 80%;
+    }
+
+    .vetor-section-button{
+        display: none;
+    }
+
+    .button-image-contact-container p{
+        width: 90%;
+    }
+
+    #waves-bottom{
+        transform: rotate(180deg);
+        top: inherit;
+        bottom: -35px;
+        z-index: -1;
+    }
+
+    .section-w-waves{
+        padding-top: 35px;
+    }
+
+    #logo-vertical-contato img{
+        display: none;
+    }
+
+    #form1{
+        width: 90%;
+    }
+
+    #form-buttons{
+        width: 90%;
+    }
+
+    #second-button-image-contact{
+        height: 480px;
+        padding-top: 0px;
+    }
+
+}
+
+
+/* -------- MOBILE -------- */
+@media (max-width: 480px) {
+    #titulo-contato img{
+        display: none;
+    }
+
+    .vetor-section-button{
+        display: none;
+    }
+}
