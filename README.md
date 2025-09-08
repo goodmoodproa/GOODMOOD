@@ -74,5 +74,5 @@ Nosso time reúne pessoas apaixonadas por levar sorrisos, esperança e arte a qu
 | Heitor     | Desenvolvedor / Voluntário | (colocar email) | [GitHub]() | [LinkedIn](https://www.linkedin.com/in/heitorlsales) |  
 | Maurício   | Desenvolvedor / Voluntário | (colocar email) | [GitHub](https://github.com/maugois) | [LinkedIn](https://www.linkedin.com/in/maurício-martins-a61648240) |  
 | Guilherme  | Desenvolvedor / Voluntário | (colocar email) | [GitHub](#) | [LinkedIn](#) |  
-| João Pedro | Desenvolvedor / Voluntário | (joaopedroqdemelo@gmail.com) | [GitHub]([#](https://github.com/JotaPQueiroz)) | [LinkedIn]([#](https://www.linkedin.com/in/joaopedroqdemelo/)) |
+| João Pedro | Desenvolvedor / Voluntário | (joaopedroqdemelo@gmail.com)  | [GitHub](https://github.com/JotaPQueiroz) | [LinkedIn](https://www.linkedin.com/in/joaopedroqdemelo/) |
 | Cleyton    | Desenvolvedor / Voluntário | (colocar email) | [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/cleyton-durval-yfgf76f) |
