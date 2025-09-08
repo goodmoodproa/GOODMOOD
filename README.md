@@ -71,8 +71,8 @@ Nosso time reúne pessoas apaixonadas por levar sorrisos, esperança e arte a qu
 | Nome       | Função             | Email | GitHub | LinkedIn |  
 |------------|-------------------|-------|--------|----------|  
 | Lucas Lopes | Desenvolvedor / Voluntário | (lopes.lucas379@gmail.com) | [GitHub](https://github.com/LuksCode) | [LinkedIn](https://www.linkedin.com/in/lucaslopesfreire) |  
-| Heitor     | Voluntário / Palhaço | (colocar email) | [GitHub](https://github.com/JotaPQueiroz) | [LinkedIn](https://www.linkedin.com/in/heitorlsales) |  
-| Maurício   | Voluntário / Apoio Criativo | (colocar email) | [GitHub](https://github.com/maugois) | [LinkedIn](https://www.linkedin.com/in/maurício-martins-a61648240) |  
-| Guilherme  | Voluntário / Comunicação | (colocar email) | [GitHub](#) | [LinkedIn](#) |  
-| João Pedro | Voluntário / Logística | (colocar email) | [GitHub](#) | [LinkedIn](#) |  
-| Cleyton    | Voluntário / Produção Cultural | (colocar email) | [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/cleyton-durval-yfgf76f) |
+| Heitor     | Desenvolvedor / Voluntário | (colocar email) | [GitHub]() | [LinkedIn](https://www.linkedin.com/in/heitorlsales) |  
+| Maurício   | Desenvolvedor / Voluntário | (colocar email) | [GitHub](https://github.com/maugois) | [LinkedIn](https://www.linkedin.com/in/maurício-martins-a61648240) |  
+| Guilherme  | Desenvolvedor / Voluntário | (colocar email) | [GitHub](#) | [LinkedIn](#) |  
+| João Pedro | Desenvolvedor / Voluntário | (joaopedroqdemelo@gmail.com) | [GitHub]([#](https://github.com/JotaPQueiroz)) | [LinkedIn]([#](https://www.linkedin.com/in/joaopedroqdemelo/)) |
+| Cleyton    | Desenvolvedor / Voluntário | (colocar email) | [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/cleyton-durval-yfgf76f) |
